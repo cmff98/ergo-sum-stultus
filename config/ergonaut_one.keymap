@@ -89,19 +89,19 @@
 
     base {
       bindings = <
-&kp TAB     &kp Q           &kp W       &kp E         &kp R               &kp T                     &kp Y      &kp U                &kp I                 &kp O       &kp P               &kp DELETE
-&kp DELETE  &hm LEFT_GUI A  &hm LALT S  &hm LSHIFT D  &hm LEFT_CONTROL F  &kp G                     &kp H      &hm RIGHT_CONTROL J  &hm RSHIFT K          &hm RALT L  &hm RGUI LS(COMMA)  &kp LS(PERIOD)
-&kp ESCAPE  &kp Z           &kp X       &kp C         &kp V               &kp B                     &kp N      &kp M                &kp COMMA             &kp DOT     &kp LS(NUMBER_7)    &kp ESC
-                                        &kp TAB       &mo 1               &hm LEFT_CONTROL SPACE    &kp ENTER  &mo 2                &hm LSHIFT BACKSPACE
+&kp TAB     &kp Q           &kp W       &kp E         &kp R               &kp T                   &kp Y      &kp U                &kp I                 &kp O       &kp P               &kp DELETE
+&kp DELETE  &hm LEFT_GUI A  &hm LALT S  &hm LSHIFT D  &hm LEFT_CONTROL F  &kp G                   &kp H      &hm RIGHT_CONTROL J  &hm RSHIFT K          &hm RALT L  &hm RGUI LS(COMMA)  &kp LS(PERIOD)
+&kp ESCAPE  &kp Z           &kp X       &kp C         &kp V               &kp B                   &kp N      &kp M                &kp COMMA             &kp DOT     &kp LS(NUMBER_7)    &kp ESC
+                                        &kp TAB       &mo 1               &hm LEFT_CONTROL SPACE  &kp ENTER  &mo 2                &hm LSHIFT BACKSPACE
       >;
     };
 
     numbersNnav {
       bindings = <
-&trans  &trans           &kp N7                 &kp N8                   &kp N9                     &trans    &trans          &kp HOME  &kp END        &trans     &trans  &trans
-&trans  &hm LEFT_GUI N0  &hm LEFT_ALT NUMBER_1  &hm LEFT_SHIFT NUMBER_2  &hm LEFT_CONTROL NUMBER_3  &trans    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW   &kp RIGHT  &trans  &trans
-&trans  &trans           &kp N4                 &kp N5                   &kp N6                     &trans    &trans          &trans    &trans         &trans     &trans  &trans
-                                                &trans                   &trans                     &trans    &trans          &mo 3     &kp BACKSPACE
+&trans  &trans           &kp N7                 &kp N8                   &kp N9                     &trans  &trans          &kp HOME  &kp END        &trans     &trans  &trans
+&trans  &hm LEFT_GUI N0  &hm LEFT_ALT NUMBER_1  &hm LEFT_SHIFT NUMBER_2  &hm LEFT_CONTROL NUMBER_3  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW   &kp RIGHT  &trans  &trans
+&trans  &trans           &kp N4                 &kp N5                   &kp N6                     &trans  &trans          &trans    &trans         &trans     &trans  &trans
+                                                &trans                   &trans                     &trans  &trans          &mo 3     &kp BACKSPACE
       >;
 
       label = "num";
@@ -109,19 +109,19 @@
 
     symbols {
       bindings = <
-&none  &kp LS(NUMBER_1)      &kp RA(NUMBER_2)  &kp HASH          &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp PIPE          &kp LS(NUMBER_6)  &kp LEFT_BRACE     &kp LS(NUMBER_0)  &kp LS(MINUS)             &trans
-&none  &kp NON_US_BACKSLASH  &kp RA(NUMBER_8)  &kp RA(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(SLASH)       &kp SLASH         &kp LS(NUMBER_9)  &kp RA(NUMBER_0)   &kp RA(N9)        &kp LS(NON_US_BACKSLASH)  &kp RIGHT_BRACKET
-&none  &trans                &kp MINUS         &kp SEMICOLON     &trans            &kp GRAVE           &kp LEFT_BRACKET  &kp AT_SIGN       &kp DOUBLE_QUOTES  &trans            &kp TILDE                 &kp BACKSLASH
-                                               &trans            &trans            &trans              &trans            &trans            &trans
+&none  &kp LS(NUMBER_1)      &kp RA(NUMBER_2)  &kp HASH          &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp PIPE          &kp LS(NUMBER_6)  &kp LEFT_BRACE     &kp LS(NUMBER_0)  &kp LS(MINUS)             &trans
+&none  &kp NON_US_BACKSLASH  &kp RA(NUMBER_8)  &kp RA(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(SLASH)     &kp SLASH         &kp LS(NUMBER_9)  &kp RA(NUMBER_0)   &kp RA(N9)        &kp LS(NON_US_BACKSLASH)  &kp RIGHT_BRACKET
+&none  &trans                &kp MINUS         &kp SEMICOLON     &trans            &kp GRAVE         &kp LEFT_BRACKET  &kp AT_SIGN       &kp DOUBLE_QUOTES  &trans            &kp TILDE                 &kp BACKSLASH
+                                               &trans            &trans            &trans            &trans            &trans            &trans
       >;
     };
 
     both {
       bindings = <
-&none  &ext_power EP_OFF  &none           &kp LG(LS(S))      &none         &bt BT_SEL 0    &bt BT_SEL 3  &none               &none  &none      &ext_power EP_OFF  &rgb_ug RGB_COLOR_HSB(0,60,50)
-&none  &kp C_PLAY_PAUSE   &kp C_PREVIOUS  &kp C_NEXT         &none         &bt BT_SEL 1    &bt BT_SEL 4  &kp LS(LC(ESCAPE))  &none  &kp LG(L)  &none              &rgb_ug RGB_COLOR_HSB(120,60,50)
-&none  &none              &kp C_MUTE      &kp C_VOLUME_DOWN  &kp C_VOL_UP  &bt BT_SEL 2    &bt BT_CLR    &kp LG(TAB)         &none  &none      &none              &rgb_ug RGB_COLOR_HSB(240,60,50)
-                                          &none              &none         &none           &none         &none               &none
+&none  &ext_power EP_OFF  &none           &kp LG(LS(S))      &none         &bt BT_SEL 0  &bt BT_SEL 3  &none               &none  &none      &ext_power EP_OFF  &rgb_ug RGB_COLOR_HSB(0,60,50)
+&none  &kp C_PLAY_PAUSE   &kp C_PREVIOUS  &kp C_NEXT         &none         &bt BT_SEL 1  &bt BT_SEL 4  &kp LS(LC(ESCAPE))  &none  &kp LG(L)  &none              &rgb_ug RGB_COLOR_HSB(120,60,50)
+&none  &bootloader        &kp C_MUTE      &kp C_VOLUME_DOWN  &kp C_VOL_UP  &bt BT_SEL 2  &bt BT_CLR    &kp LG(TAB)         &none  &none      &bootloader        &rgb_ug RGB_COLOR_HSB(240,60,50)
+                                          &none              &none         &none         &none         &none               &none
       >;
     };
   };
