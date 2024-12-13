@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - Gui+Alt+ K
+  - Gui+Alt+ ⌦
   - ⏭️
   - {t: A, h: LEFT GUI}
   - {t: S, h: Alt}
@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - Sft+ 7
-  - Esc
+  - Gui+Alt+ K
   - ↹
   - num
   - {t: ␣, h: LEFT CONTROL}
