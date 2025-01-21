@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - Gui+Alt+ ⌦
+  - Gui+Alt+⌦
   - ⏭️
   - {t: A, h: LEFT GUI}
   - {t: S, h: Alt}
@@ -22,8 +22,8 @@ layers:
   - {t: J, h: RIGHT CONTROL}
   - {t: K, h: RSHIFT}
   - {t: L, h: Alt}
-  - {t: 'Sft+ ,', h: Gui}
-  - Sft+ .
+  - {t: 'Sft+,', h: Gui}
+  - Sft+.
   - ⏮️
   - Z
   - X
@@ -34,8 +34,8 @@ layers:
   - M
   - ','
   - .
-  - Sft+ 7
-  - Gui+Alt+ K
+  - Sft+7
+  - DELETE
   - ↹
   - num
   - {t: ␣, h: LEFT CONTROL}
@@ -87,28 +87,28 @@ layers:
   - BACKSPACE
   symbols:
   - ''
-  - Sft+ 1
-  - AGr+ 2
+  - Sft+1
+  - AltGr+2
   - '#'
-  - Sft+ 4
-  - Sft+ 5
+  - Sft+4
+  - Sft+5
   - '|'
-  - Sft+ 6
+  - Sft+6
   - '{'
-  - Sft+ 0
-  - Sft+ -
+  - Sft+0
+  - Sft+-
   - {t: ▽, type: trans}
   - ''
   - \
-  - AGr+ 8
-  - AGr+ 7
-  - Sft+ 8
-  - Sft+ /
+  - AltGr+8
+  - AltGr+7
+  - Sft+8
+  - Sft+/
   - /
-  - Sft+ 9
-  - AGr+ 0
-  - AGr+ 9
-  - Sft+ \
+  - Sft+9
+  - AltGr+0
+  - AltGr+9
+  - Sft+\
   - ']'
   - ''
   - {t: ▽, type: trans}
@@ -132,7 +132,7 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+Sft+ S
+  - Gui+Sft+S
   - ''
   - BT 1
   - BT 4
@@ -148,7 +148,7 @@ layers:
   - ''
   - BT 2
   - BT 5
-  - Sft+Ctl+ ESCAPE
+  - Sft+Ctl+ESCAPE
   - ''
   - Lock
   - ''
@@ -160,7 +160,7 @@ layers:
   - Vol Up
   - BT 3
   - BT CLR
-  - Gui+ ↹
+  - Gui+↹
   - ''
   - ''
   - ''
