@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   base:
   - ⏯
@@ -11,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - Gui+Alt+⌦
+  - DELETE
   - ⏭️
   - {t: A, h: LEFT GUI}
   - {t: S, h: Alt}

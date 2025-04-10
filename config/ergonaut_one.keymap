@@ -88,7 +88,7 @@
 
     base {
       bindings = <
-&kp C_PP    &kp Q           &kp W       &kp E         &kp R               &kp T                   &kp Y      &kp U                &kp I                 &kp O       &kp P               &kp LG(LA(DEL))
+&kp C_PP    &kp Q           &kp W       &kp E         &kp R               &kp T                   &kp Y      &kp U                &kp I                 &kp O       &kp P               &kp DELETE
 &kp C_NEXT  &hm LEFT_GUI A  &hm LALT S  &hm LSHIFT D  &hm LEFT_CONTROL F  &kp G                   &kp H      &hm RIGHT_CONTROL J  &hm RSHIFT K          &hm RALT L  &hm RGUI LS(COMMA)  &kp LS(PERIOD)
 &kp C_PREV  &kp Z           &kp X       &kp C         &kp V               &kp B                   &kp N      &kp M                &kp COMMA             &kp DOT     &kp LS(NUMBER_7)    &kp DELETE
                                         &kp TAB       &mo 1               &hm LEFT_CONTROL SPACE  &kp ENTER  &mo 2                &hm LSHIFT BACKSPACE
