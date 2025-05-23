@@ -4,35 +4,35 @@ layers:
   - ⏯
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - Sft+,
   - DELETE
   - ⏭️
-  - {t: A, h: LEFT GUI}
-  - {t: S, h: Alt}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LEFT CONTROL}
+  - {t: A, h: LEFT WIN}
+  - {t: R, h: LEFT ALT}
+  - {t: S, h: LSHIFT}
+  - {t: T, h: Ctrl}
   - G
-  - H
-  - {t: J, h: RIGHT CONTROL}
-  - {t: K, h: RSHIFT}
-  - {t: L, h: Alt}
-  - {t: 'Sft+,', h: Gui}
+  - M
+  - {t: N, h: RIGHT CONTROL}
+  - {t: E, h: RIGHT SHIFT}
+  - {t: I, h: RIGHT ALT}
+  - {t: O, h: RIGHT WIN}
   - Sft+.
   - ⏮️
   - Z
   - X
   - C
+  - D
   - V
-  - B
-  - N
-  - M
+  - K
+  - H
   - ','
   - .
   - Sft+7
